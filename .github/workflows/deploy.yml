@@ -1,4 +1,4 @@
-name: Deploy Laravel API to GitHub Pages
+name: Deploy Laravel API to GitHub Pages 2
 
 on:
   push:

@@ -21,9 +21,6 @@ jobs:
     - name: Install dependencies
       run: composer install --no-dev
 
-    - name: Run migrations
-      run: php artisan migrate --force
-
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
